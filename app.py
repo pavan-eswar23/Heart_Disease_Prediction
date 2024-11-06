@@ -1,9 +1,8 @@
 import streamlit as st
 import pickle
-from apikey import google_gemini_api_keys
 import os
 import google.generativeai as genai
-
+google_gemini_api_keys="AIzaSyAamVcILZqSaT4wkDl_Bx1V0nYkbAWoshg"
 # Building an Generative AI - Model which helps patients in giving suggestions
 genai.configure(api_key=google_gemini_api_keys)
 
